@@ -35,26 +35,22 @@ git clone https://github.com/chocolatecupcake2002/Alzheimer-s-Disease-Classifica
 
 
 2. Install dependencies:
-
-cd ../backend
-pip install flask
-pip install tensorflow
-pip install numpy
-pip install pillow
-pip install scikit-learn    
-
-cd alzheimers-detection/frontend
-npm install @vitejs/plugin-react
-npm install @vitejs/plugin-vue
-npm install @vitejs/plugin-vue-jsx
-npm install @vitejs/plugin-legacy
-npm install react
-npm install react-dom
-npm install react-router-dom
-npm install @mui/material
-npm install @emotion/react
-npm install @emotion/styled
-npm install axios    
+- pip install flask
+- pip install tensorflow
+- pip install numpy
+- pip install pillow
+- pip install scikit-learn    
+- npm install @vitejs/plugin-react
+- npm install @vitejs/plugin-vue
+- npm install @vitejs/plugin-vue-jsx
+- npm install @vitejs/plugin-legacy
+- npm install react
+- npm install react-dom
+- npm install react-router-dom
+- npm install @mui/material
+- npm install @emotion/react
+- npm install @emotion/styled
+- npm install axios    
 
 
 ## Usage
