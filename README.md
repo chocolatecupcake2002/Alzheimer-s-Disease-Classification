@@ -31,7 +31,7 @@ Upon image upload, the frontend of the web application sends a POST request to t
 
 1. Clone the repository:
 
-git clone https://github.com/chocolatecupcake2002/alzheimers-detection.git
+git clone https://github.com/chocolatecupcake2002/Alzheimer-s-Disease-Classification.git
 
 
 2. Install dependencies:
