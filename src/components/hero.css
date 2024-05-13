@@ -1,0 +1,10 @@
+.bg-pic {
+    background-image: url('../assets/research.png'); /* Adjust the path to your image file */
+    background-size: cover;
+    background-position: center;
+  }
+.bg-course{
+    background: rgb(150,244,206);
+    background: linear-gradient(90deg, rgba(150,244,206,1) 0%, rgba(149,234,234,1) 48%, rgba(207,239,236,1) 100%);
+
+}

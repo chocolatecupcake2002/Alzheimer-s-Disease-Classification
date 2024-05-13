@@ -1,0 +1,7 @@
+.bg-jade-light {
+    background-color: #95cfbacc; /* Adjust color code as per your preference */
+  }
+.bg-feed{
+  background: rgb(124,158,144);
+background: linear-gradient(90deg, rgba(124,158,144,1) 0%, rgba(189,223,223,1) 48%, rgba(215,239,237,1) 100%);
+}

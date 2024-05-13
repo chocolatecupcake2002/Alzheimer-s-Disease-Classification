@@ -1,0 +1,106 @@
+.image-uploader-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .upload-box {
+    width: 400px; /* Increased width */
+    height: 300px; /* Increased height */
+    border: 4px dotted #000000; /* Changed border color to dark jade green and increased thickness */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 24px; /* Increased font size */
+    color: #000; /* Text color black */
+    margin-right: 800px; /* Push the upload box to the left */
+  }
+  .upload-box1 {
+    width: 400px; /* Increased width */
+    height: 300px; /* Increased height */
+    border: 4px dotted #000000; /* Changed border color to dark jade green and increased thickness */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 24px; /* Increased font size */
+    color: #000; /* Text color black */
+    margin-left: 700px; /* Push the upload box to the left */
+    margin-top: -300px; /* Adjusted margin top (negative value) */
+  }
+  
+  
+  
+  .upload-placeholder {
+    color: #000; /* Text color black */
+  }
+  
+  .file-input {
+    display: none;
+  }
+  
+  .preview-image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .upload-button {
+    margin-top: 20px; /* Increased margin top */
+    padding: 12px 24px; /* Increased padding */
+    font-size: 18px; /* Increased font size */
+    background-color: #5da591;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 800px;
+  }
+  
+  .upload-button:hover {
+    background-color: #0056b3;
+    
+  }
+  .upload-section {
+    margin-bottom: 10px; /* Added margin to create space between upload box and uploaded image */
+  }
+  
+  .uploaded-image-container {
+    position: fixed; /* Position fixed to keep the image container fixed relative to the viewport */
+    top: 43%; /* Aligning the top of the image container to the middle of the viewport */
+    right: 600px; /* Distance from the right side of the viewport */
+    transform: translateY(-50%); /* Adjusting vertically to center the image container */
+  }
+  
+  .uploaded-image {
+    max-width: 300px; /* Set maximum width for the uploaded image */
+  }
+  .remove-image-button {
+    margin-top: 20px; 
+    margin-right: 800px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff0000; /* Red button */
+    color: #fff; /* White font color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .prediction-result-box {
+    margin-top: -120px; /* Increased margin top */
+    padding: 12px 24px; /* Increased padding */
+    font-size: 18px; /* Increased font size */
+    background-color: #3b549a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: -700px;
+  }
+  .prediction-result-text {
+    font-size: 20px; /* Bigger font size for the prediction result */
+    color: rgb(250, 247, 247); /* White font color */
+  }
+  
